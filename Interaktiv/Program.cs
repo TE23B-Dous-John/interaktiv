@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Användarnamn");
+string name = Console.ReadLine();
+
+if(name == "John")
+{
+    Console.WriteLine("Välkommen!");
+}
+else
+{
+    Console.WriteLine("Inloggning misslyckats");
+}
+Console.ReadLine();
